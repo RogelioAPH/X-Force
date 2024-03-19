@@ -1,0 +1,163 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: #7a0585;
+    background-size: auto;
+    background-repeat: no-repeat;
+    height: 700px;
+	background-size: cover;
+    background-position: center;
+}
+header {
+	width: 100%;
+}
+header nav {
+	width: 90%;
+	max-width: 1000px;
+	margin-top: 0px;
+	margin: 20px auto;
+	background: #e68609;
+	border-radius: 50px;
+}
+.menu_bar {
+	display: none; /*desaparecemos la palabra menu*/
+}
+header nav ul {
+	overflow: hidden; /*Hacemos que el menú no este en linea con el texto*/
+	list-style: none;
+}
+header nav ul li {
+	float: left;
+}
+header nav ul li a {
+	color: #000000;
+	padding: 20px;
+	display: block;
+	text-decoration: none;
+}
+header nav ul li span {
+	margin-right: 10px;
+}
+header nav ul li a:hover {
+	background: #8109b9;
+	border-radius: 50px;
+}
+ section {
+ 	padding: 20px;
+ }
+@media screen and (max-width: 900px) {
+	header nav {
+		width: 50%;
+		height: 100%;
+		left: -100%;
+		margin: 0;
+		position: fixed; /*se mantendrá en el mismo lugar incluso al hacer scroll*/
+		border-radius: 0px;
+	}
+	header nav ul li {
+		display: block;
+		float: none;
+		border-bottom: 1px solid #ffffff55;
+	}
+	.menu_bar {
+		display: block;
+		width: 100%;
+		background: #ccc; 
+	}
+	.menu_bar .bt-menu {
+		display: block;
+		padding: 20px;
+	background: #e68609;
+		color: #000000;
+		font-weight: bold;
+		text-decoration: none;
+		font-size: 25px;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	.menu_bar span {
+		float: right;
+		font-size: 40px;
+	}
+}
+
+div {
+	text-align: center;
+	margin: 0px;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+}
+
+.container img {
+	width: 600px;
+	margin-right: 20px;
+}
+
+.container p {
+	font-size:  16px;
+	line-height: 1.5;
+	text-align:justify ;
+}
+
+#hola {
+	width: 1000px;
+	margin-left: 200px;
+	 }
+.image-container {
+		display: flex; 
+		justify-content: space-evenly 
+	}
+
+.image-container img {
+		max-width: 300px; 
+		image-orientation: from-image;
+	}
+
+.image-text {
+		text-align: center; 
+	}
+
+#mi-footer {
+	background-color: #ff9100;
+	text-align: center;
+}
+#mi-footer p {
+	font-size: 15px;
+	line-height: 1.5;
+}
+p {
+	color: rgb(0, 0, 0);
+}
+h3 {
+	color: rgb(255, 255, 255);
+}
+
+.col {
+	width: 300px;
+	margin-left: 50px;
+}
+h4 {
+	color:white;
+	text-align: center;
+}
+#container.12 img {
+	width: 600px;
+	margin-right: 20px;
+}
+
+h1 {
+	color: hsl(34, 92%, 47%);
+	text-align: center;
+}
+
+.card-body {
+	color: ;
+}
+
