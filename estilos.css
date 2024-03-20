@@ -56,6 +56,7 @@ header nav ul li a:hover {
 		margin: 0;
 		position: fixed; /*se mantendrá en el mismo lugar incluso al hacer scroll*/
 		border-radius: 0px;
+		z-index: 8;
 	}
 	header nav ul li {
 		display: block;
